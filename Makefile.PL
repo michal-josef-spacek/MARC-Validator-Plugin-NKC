@@ -24,6 +24,7 @@ requires 'Error::Pure::Utils' => 0;
 requires 'File::Share' => 0;
 requires 'MARC::Leader' => 0.04;
 requires 'MARC::Leader::Utils' => 0;
+requires 'MARC::Validator::Abstract' => 0;
 requires 'Perl6::Slurp' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC/issues',
 resources 'homepage' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC';
