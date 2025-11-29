@@ -11,7 +11,7 @@ use MARC::Leader;
 use MARC::Validator::Utils qw(add_error);
 use Perl6::Slurp qw(slurp);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub name {
 	my $self = shift;
