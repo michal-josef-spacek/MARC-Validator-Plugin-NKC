@@ -22,6 +22,7 @@ share/AGENCIES
 share/BAD_AGENCIES
 share/INFO
 share/SIGLAS
+SIGNATURE
 t/MARC-Validator-Plugin-NKC-Sigla/01-use.t
 t/MARC-Validator-Plugin-NKC-Sigla/02-version.t
 xt/MARC-Validator-Plugin-NKC-Sigla/01-pod_coverage.t
