@@ -29,8 +29,6 @@ sub name {
 sub process {
 	my ($self, $marc_record) = @_;
 
-	my $struct_hr = $self->{'struct'}->{'checks'};
-
 	my $record_id = $self->{'cb_record_id'}->($marc_record);
 	my @record_errors;
 
