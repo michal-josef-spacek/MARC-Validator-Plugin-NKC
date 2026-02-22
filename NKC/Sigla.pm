@@ -12,7 +12,7 @@ use File::Share ':all';
 use MARC::Leader;
 use Perl6::Slurp qw(slurp);
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 sub module_name {
 	my $self = shift;
