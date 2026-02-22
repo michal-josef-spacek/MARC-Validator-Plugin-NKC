@@ -1,6 +1,7 @@
 0.03
  - Add bad agencies.
  - Add valid agencies.
+ - Rewrite to new MARC::Validator::Abstract@0.10 and new data model.
 
 0.02 2025-11-29T01:43:04+01:00
  - Fix dependencies.

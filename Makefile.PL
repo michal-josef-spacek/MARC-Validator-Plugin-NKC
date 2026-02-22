@@ -19,12 +19,14 @@ name 'MARC-Validator-Plugin-NKC';
 perl_version 5.006002;
 readme_from 'NKC.pod';
 recursive_author_tests('xt');
+requires 'Data::MARC::Validator::Report::Error' => 0.02;
+requires 'Data::MARC::Validator::Report::Plugin::Errors' => 0.02;
 requires 'English' => 0;
 requires 'Error::Pure::Utils' => 0;
 requires 'File::Share' => 0;
 requires 'MARC::Leader' => 0.04;
 requires 'MARC::Leader::Utils' => 0;
-requires 'MARC::Validator::Abstract' => 0;
+requires 'MARC::Validator::Abstract' => 0.10;
 requires 'Perl6::Slurp' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC/issues',
 resources 'homepage' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC';

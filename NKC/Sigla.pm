@@ -4,14 +4,21 @@ use base qw(MARC::Validator::Abstract);
 use strict;
 use warnings;
 
+use Data::MARC::Validator::Report::Error 0.02;
+use Data::MARC::Validator::Report::Plugin::Errors 0.02;
 use English;
 use Error::Pure::Utils qw(err_get);
 use File::Share ':all';
 use MARC::Leader;
-use MARC::Validator::Utils qw(add_error);
 use Perl6::Slurp qw(slurp);
 
 our $VERSION = 0.03;
+
+sub module_name {
+	my $self = shift;
+
+	return __PACKAGE__;
+}
 
 sub name {
 	my $self = shift;
@@ -24,7 +31,8 @@ sub process {
 
 	my $struct_hr = $self->{'struct'}->{'checks'};
 
-	my $error_id = $self->{'cb_error_id'}->($marc_record);
+	my $record_id = $self->{'cb_record_id'}->($marc_record);
+	my @record_errors;
 
 	my $leader_string = $marc_record->leader;
 	my $leader = eval {
@@ -34,15 +42,14 @@ sub process {
 	};
 	if ($EVAL_ERROR) {
 		my @errors = err_get(1);
-		$struct_hr->{'not_valid'}->{$error_id} = [];
 		foreach my $error (@errors) {
 			my %err_params = @{$error->{'msg'}}[1 .. $#{$error->{'msg'}}];
-			# TODO Rewrite to add_error?
-			push @{$struct_hr->{'not_valid'}->{$error_id}}, {
+			push @record_errors, Data::MARC::Validator::Report::Error->new(
 				'error' => $error->{'msg'}->[0],
 				'params' => \%err_params,
-			};
+			);
 		}
+		$self->_process_errors($record_id, @record_errors);
 		return;
 	}
 
@@ -54,35 +61,38 @@ sub process {
 		my $field_040_sub = $field_040->subfield($subfield);
 		if (defined $field_040_sub) {
 			if (exists $self->{'_bad_agencies'}->{$field_040_sub}) {
-				add_error($error_id, $struct_hr, {
+				push @record_errors, Data::MARC::Validator::Report::Error->new(
 					'error' => 'Bad agency in 040'.$subfield.' field.',
 					'params' => {
 						'value' => $field_040_sub,
 					},
-				});
+				);
 			} elsif (! exists $self->{'_agencies'}->{$field_040_sub}
 				&& ! exists $self->{'_siglas'}->{$field_040_sub}) {
 
-				add_error($error_id, $struct_hr, {
+				push @record_errors, Data::MARC::Validator::Report::Error->new(
 					'error' => 'Bad sigla in 040'.$subfield.' field.',
 					'params' => {
 						'value' => $field_040_sub,
 					},
-				});
+				);
 			}
 		}
 	}
 
+	$self->_process_errors($record_id, @record_errors);
+
 	return;
+}
+
+sub version {
+	my $self = shift;
+
+	return $VERSION;
 }
 
 sub _init {
 	my $self = shift;
-
-	$self->{'struct'}->{'module_name'} = __PACKAGE__;
-	$self->{'struct'}->{'module_version'} = $VERSION;
-
-	$self->{'struct'}->{'checks'}->{'not_valid'} = {};
 
 	# Load agencies.
 	my $agencies_file = dist_file('MARC-Validator-Plugin-NKC', 'AGENCIES');
@@ -98,6 +108,21 @@ sub _init {
 	my $siglas_file = dist_file('MARC-Validator-Plugin-NKC', 'SIGLAS');
 	my %siglas = map { $_ => 1 } slurp($siglas_file, { 'chomp' => 1 });
 	$self->{'_siglas'} = \%siglas;
+
+	return;
+}
+
+sub _process_errors {
+	my ($self, $record_id, @record_errors) = @_;
+
+	if (@record_errors) {
+		push @{$self->{'errors'}}, Data::MARC::Validator::Report::Plugin::Errors->new(
+			'errors' => \@record_errors,
+			# TODO process
+			'filters' => [],
+			'record_id' => $record_id,
+		);
+	}
 
 	return;
 }

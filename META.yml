@@ -23,12 +23,14 @@ no_index:
     - t
     - xt
 requires:
+  Data::MARC::Validator::Report::Error: 0.02
+  Data::MARC::Validator::Report::Plugin::Errors: 0.02
   English: 0
   Error::Pure::Utils: 0
   File::Share: 0
   MARC::Leader: 0.04
   MARC::Leader::Utils: 0
-  MARC::Validator::Abstract: 0
+  MARC::Validator::Abstract: 0.1
   Perl6::Slurp: 0
   perl: 5.6.2
 resources:
