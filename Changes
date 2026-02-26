@@ -1,4 +1,6 @@
 0.04
+ - Add check for field 504, detect Czech word for index and check field 008
+   index setting.
 
 0.03 2026-02-22T18:04:03+01:00
  - Add bad agencies.

@@ -16,6 +16,7 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 NKC.pod
+NKC/Field504.pm
 NKC/Sigla.pm
 README
 share/AGENCIES
@@ -23,7 +24,15 @@ share/BAD_AGENCIES
 share/INFO
 share/SIGLAS
 SIGNATURE
+t/data/cnb000119080-bad_book_material_index.xml
+t/MARC-Validator-Plugin-NKC-Field504/01-use.t
+t/MARC-Validator-Plugin-NKC-Field504/02-version.t
+t/MARC-Validator-Plugin-NKC-Field504/03-new.t
+t/MARC-Validator-Plugin-NKC-Field504/04-name.t
+t/MARC-Validator-Plugin-NKC-Field504/05-struct.t
 t/MARC-Validator-Plugin-NKC-Sigla/01-use.t
 t/MARC-Validator-Plugin-NKC-Sigla/02-version.t
+xt/MARC-Validator-Plugin-NKC-Field504/01-pod_coverage.t
+xt/MARC-Validator-Plugin-NKC-Field504/02-pod.t
 xt/MARC-Validator-Plugin-NKC-Sigla/01-pod_coverage.t
 xt/MARC-Validator-Plugin-NKC-Sigla/02-pod.t

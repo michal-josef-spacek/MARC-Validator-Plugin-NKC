@@ -3,9 +3,14 @@ abstract: 'MARC validator plugins for the Czech National Library.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
+  English: 0
+  Error::Pure::Utils: 0
   ExtUtils::MakeMaker: 6.59
+  File::Object: 0
+  MARC::File::XML: 0
   Test::More: 0
   Test::NoWarnings: 0
+  Unicode::UTF8: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
@@ -28,10 +33,12 @@ requires:
   English: 0
   Error::Pure::Utils: 0
   File::Share: 0
+  MARC::Field008: 0
   MARC::Leader: 0.04
   MARC::Leader::Utils: 0
   MARC::Validator::Abstract: 0.1
   Perl6::Slurp: 0
+  Unicode::UTF8: 0
   perl: 5.6.2
 resources:
   bugtracker: https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC/issues

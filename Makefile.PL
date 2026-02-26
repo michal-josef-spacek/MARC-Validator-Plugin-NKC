@@ -26,13 +26,20 @@ requires 'Error::Pure::Utils' => 0;
 requires 'File::Share' => 0;
 requires 'MARC::Leader' => 0.04;
 requires 'MARC::Leader::Utils' => 0;
+requires 'MARC::Field008' => 0;
 requires 'MARC::Validator::Abstract' => 0.10;
 requires 'Perl6::Slurp' => 0;
+requires 'Unicode::UTF8' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC/issues',
 resources 'homepage' => 'https://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC';
 resources 'repository' => 'git://github.com/michal-josef-spacek/MARC-Validator-Plugin-NKC';
+test_requires 'English' => 0;
+test_requires 'Error::Pure::Utils' => 0;
+test_requires 'File::Object' => 0;
+test_requires 'MARC::File::XML' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
+test_requires 'Unicode::UTF8' => 0;
 tests_recursive;
 version '0.04';
 
