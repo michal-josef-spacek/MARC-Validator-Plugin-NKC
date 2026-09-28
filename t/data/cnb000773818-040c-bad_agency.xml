@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+  xmlns="http://www.loc.gov/MARC21/slim">
+
+<record>
+  <leader>03538cjm a2200721 i 4500</leader>
+  <controlfield tag="001">cpz19950773818</controlfield>
+  <controlfield tag="003">CZ PrNK</controlfield>
+  <controlfield tag="005">20240910094337.0</controlfield>
+  <controlfield tag="007">sd fsngnnmmned</controlfield>
+  <controlfield tag="008">950817p19931992xr opnn  fi       n ita  </controlfield>
+  <datafield tag="015" ind1=" " ind2=" ">
+    <subfield code="a">cnb000773818</subfield>
+  </datafield>
+  <datafield tag="024" ind1="3" ind2=" ">
+    <subfield code="a">8596910184623</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="1">
+    <subfield code="a">11 1846 - 2 631</subfield>
+    <subfield code="b">Supraphon</subfield>
+  </datafield>
+  <datafield tag="028" ind1="0" ind2="3">
+    <subfield code="a">11 1846-2 631</subfield>
+    <subfield code="b">Supraphon</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">ABA001</subfield>
+    <subfield code="b">cze</subfield>
+    <subfield code="c">rda</subfield>
+    <subfield code="d">ABA001</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield tag="041" ind1="0" ind2=" ">
+    <subfield code="d">ita</subfield>
+    <subfield code="d">ger</subfield>
+    <subfield code="d">cze</subfield>
+    <subfield code="g">cze</subfield>
+    <subfield code="g">eng</subfield>
+    <subfield code="g">fre</subfield>
+    <subfield code="g">ger</subfield>
+  </datafield>
+  <datafield tag="045" ind1=" " ind2=" ">
+    <subfield code="a">w-x-</subfield>
+  </datafield>
+  <datafield tag="048" ind1=" " ind2=" ">
+    <subfield code="b">vb01</subfield>
+    <subfield code="a">oa01</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="7">
+    <subfield code="a">782</subfield>
+    <subfield code="x">Divadelní hudba. Opera, opereta, muzikál</subfield>
+    <subfield code="2">Konspekt</subfield>
+    <subfield code="9">9</subfield>
+  </datafield>
+  <datafield tag="080" ind1=" " ind2=" ">
+    <subfield code="a">782</subfield>
+    <subfield code="2">MRF</subfield>
+  </datafield>
+  <datafield tag="080" ind1=" " ind2=" ">
+    <subfield code="a">784.2</subfield>
+    <subfield code="2">MRF</subfield>
+  </datafield>
+  <datafield tag="080" ind1=" " ind2=" ">
+    <subfield code="a">782.086</subfield>
+    <subfield code="2">MRF</subfield>
+  </datafield>
+  <datafield tag="080" ind1=" " ind2=" ">
+    <subfield code="a">(086.76)</subfield>
+    <subfield code="2">MRF</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Famous opera arias /</subfield>
+    <subfield code="c">Eva Randová</subfield>
+  </datafield>
+  <datafield tag="246" ind1="1" ind2=" ">
+    <subfield code="i">Na disku:</subfield>
+    <subfield code="a">Opera gala concert in honour of Emmy Destinn</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">[Praha] :</subfield>
+    <subfield code="b">Supraphon,</subfield>
+    <subfield code="c">[1993]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="4">
+    <subfield code="c">℗1993</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">1 CD audio (47:24) ;</subfield>
+    <subfield code="c">12 cm</subfield>
+  </datafield>
+  <datafield tag="306" ind1=" " ind2=" ">
+    <subfield code="a">004724</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">hraná hudba</subfield>
+    <subfield code="b">prm</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">audio</subfield>
+    <subfield code="b">s</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">audiodisk</subfield>
+    <subfield code="b">sd</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="344" ind1=" " ind2=" ">
+    <subfield code="a">digital</subfield>
+    <subfield code="b">optical</subfield>
+    <subfield code="g">stereo</subfield>
+    <subfield code="2">rda</subfield>
+  </datafield>
+  <datafield tag="347" ind1=" " ind2=" ">
+    <subfield code="a">audio soubor</subfield>
+    <subfield code="b">CD audio</subfield>
+    <subfield code="2">rda</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Název z disku</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Informace k nahrávce (6 stran, vícejazyčně) v pouzdru</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Technika záznamu DDD</subfield>
+  </datafield>
+  <datafield tag="505" ind1="0" ind2=" ">
+    <subfield code="a">Síla osudu. Předehra (7:56) ; Trubadúr. Stride la vampa (3:05) ; Maškarní ples. Re dell'abisso (4:30) / Giuseppe Verdi -- Komedianti. Intermezzo / Ruggiero Leoncavallo (3:37) -- Sedlák kavalír. Voi lo sapete, o mama / Pietro Mascagni (3:44) -- Lohengrin. Entweihte Götter (2:01) ; Overture, Act 3 (3:14) ; Tristan a Isolda. Overture (10:33) ; Isoldina smrt (6:12) / Richard Wagner -- Rusalka. Čury, mury fuk / Antonín Dvořák (2:34)</subfield>
+  </datafield>
+  <datafield tag="511" ind1="0" ind2=" ">
+    <subfield code="a">Eva Randová, mezzosoprán ; Státní filharmonie Brno ; Ondrej Lenárd, dirigent</subfield>
+  </datafield>
+  <datafield tag="518" ind1=" " ind2=" ">
+    <subfield code="o">nahráno živě</subfield>
+    <subfield code="d">5. září 1992</subfield>
+    <subfield code="p">II. ročník festivalu Hudební slavnosti, Sportovní sál, České Budějovice</subfield>
+  </datafield>
+  <datafield tag="648" ind1=" " ind2="7">
+    <subfield code="a">19.-20. století</subfield>
+    <subfield code="7">ch757015</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="650" ind1="0" ind2="7">
+    <subfield code="a">hudebně dramatická tvorba</subfield>
+    <subfield code="7">ph1063864</subfield>
+    <subfield code="y">19.-20. století</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="650" ind1="0" ind2="7">
+    <subfield code="a">operní árie</subfield>
+    <subfield code="7">ph291740</subfield>
+    <subfield code="y">19.-20. století</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">árie</subfield>
+    <subfield code="7">fd980491</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">operní výňatky</subfield>
+    <subfield code="7">fd994907</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">kompaktní disky</subfield>
+    <subfield code="7">fd201991</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Randová, Eva,</subfield>
+    <subfield code="d">1936-</subfield>
+    <subfield code="7">jn99240000946</subfield>
+    <subfield code="4">sng</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Lenárd, Ondrej,</subfield>
+    <subfield code="d">1942-</subfield>
+    <subfield code="7">jn19990210371</subfield>
+    <subfield code="4">cnd</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Destinnová, Ema,</subfield>
+    <subfield code="d">1878-1930</subfield>
+    <subfield code="7">jk01022229</subfield>
+    <subfield code="4">hnr</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Verdi, Giuseppe,</subfield>
+    <subfield code="d">1813-1901.</subfield>
+    <subfield code="t">Forza del destino.</subfield>
+    <subfield code="p">Sinfonia</subfield>
+    <subfield code="7">aun2012683773</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Verdi, Giuseppe,</subfield>
+    <subfield code="d">1813-1901.</subfield>
+    <subfield code="t">Trovatore.</subfield>
+    <subfield code="p">Stride la vampa</subfield>
+    <subfield code="7">aun2010581392</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Verdi, Giuseppe,</subfield>
+    <subfield code="d">1813-1901.</subfield>
+    <subfield code="t">Ballo in maschera.</subfield>
+    <subfield code="p">Re dell’abisso affrettati</subfield>
+    <subfield code="7">aun2008489720</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Leoncavallo, Ruggero,</subfield>
+    <subfield code="d">1857-1919.</subfield>
+    <subfield code="t">Pagliacci.</subfield>
+    <subfield code="p">Intermezzo</subfield>
+    <subfield code="7">aun2013798252</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Mascagni, Pietro,</subfield>
+    <subfield code="d">1863-1945.</subfield>
+    <subfield code="t">Cavalleria rusticana.</subfield>
+    <subfield code="p">Voi lo sapete</subfield>
+    <subfield code="7">aun2009494991</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Wagner, Richard,</subfield>
+    <subfield code="d">1813-1883.</subfield>
+    <subfield code="t">Lohengrin.</subfield>
+    <subfield code="p">Entweihte Götter!</subfield>
+    <subfield code="7">aun2013798262</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Wagner, Richard,</subfield>
+    <subfield code="d">1813-1883.</subfield>
+    <subfield code="t">Lohengrin.</subfield>
+    <subfield code="n">3. Akt.</subfield>
+    <subfield code="p">Einleitung</subfield>
+    <subfield code="7">aun2010589634</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Wagner, Richard,</subfield>
+    <subfield code="d">1813-1883.</subfield>
+    <subfield code="t">Tristan und Isolde.</subfield>
+    <subfield code="p">Předehra</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Wagner, Richard,</subfield>
+    <subfield code="d">1813-1883.</subfield>
+    <subfield code="t">Tristan und Isolde.</subfield>
+    <subfield code="p">Liebestod</subfield>
+    <subfield code="7">aun2006373607</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Dvořák, Antonín,</subfield>
+    <subfield code="d">1841-1904.</subfield>
+    <subfield code="t">Rusalka.</subfield>
+    <subfield code="p">Čury mury fuk</subfield>
+    <subfield code="7">aun2010581325</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Státní filharmonie Brno</subfield>
+    <subfield code="7">kn20030215152</subfield>
+    <subfield code="4">prf</subfield>
+  </datafield>
+  <datafield tag="901" ind1=" " ind2=" ">
+    <subfield code="o">z19991201</subfield>
+  </datafield>
+  <datafield tag="910" ind1=" " ind2=" ">
+    <subfield code="a">ABA001</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">000773818</subfield>
+  </datafield>
+</record>
+
+</collection>

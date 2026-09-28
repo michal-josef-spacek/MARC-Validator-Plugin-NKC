@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+  xmlns="http://www.loc.gov/MARC21/slim">
+
+<record>
+  <leader>01162cam a2200313 i 4500</leader>
+  <controlfield tag="001">cpk20253682127</controlfield>
+  <controlfield tag="003">CZ PrNK</controlfield>
+  <controlfield tag="005">20250416082423.0</controlfield>
+  <controlfield tag="007">ta</controlfield>
+  <controlfield tag="008">090213s1890    xr     e      000 1 cze  </controlfield>
+  <datafield tag="015" ind1=" " ind2=" ">
+    <subfield code="a">cnb003682127</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="q">(Brožováno)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">ABA010</subfield>
+    <subfield code="b">cze</subfield>
+    <subfield code="d">rda</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="7">
+    <subfield code="a">821.162.3-3</subfield>
+    <subfield code="x">Česká próza</subfield>
+    <subfield code="2">Konspekt</subfield>
+    <subfield code="9">25</subfield>
+  </datafield>
+  <datafield tag="072" ind1=" " ind2="7">
+    <subfield code="a">821-93</subfield>
+    <subfield code="x">Literatura pro děti a mládež (beletrie)</subfield>
+    <subfield code="2">Konspekt</subfield>
+    <subfield code="9">26</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Vnoučková, Gabriela</subfield>
+    <subfield code="7">jk01150174</subfield>
+    <subfield code="4">aut</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Odměna ptačího krále :</subfield>
+    <subfield code="b">báchorka /</subfield>
+    <subfield code="c">od Gabriely Vnoučkové. Jiříkův dobrodinec : pohádka z Krkonoš / napsal K. Chalupa</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="1">
+    <subfield code="a">V Praze :</subfield>
+    <subfield code="b">Rudolf Storch,</subfield>
+    <subfield code="c">[1890?]</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2="3">
+    <subfield code="a">Tisk a papír Aloisa Wiesnera</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">31 stran ;</subfield>
+    <subfield code="c">13 cm</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield tag="337" ind1=" " ind2=" ">
+    <subfield code="a">bez média</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield tag="338" ind1=" " ind2=" ">
+    <subfield code="a">svazek</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Storchova knihovna pohádková ;</subfield>
+    <subfield code="v">svazek XIII</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">české pohádky</subfield>
+    <subfield code="7">fd133970</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2="7">
+    <subfield code="a">publikace pro děti</subfield>
+    <subfield code="7">fd133156</subfield>
+    <subfield code="2">czenas</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2="2">
+    <subfield code="a">Chalupa, Karel,</subfield>
+    <subfield code="d">1864-1904.</subfield>
+    <subfield code="t">Jiříkův dobrodinec</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Storchova knihovna pohádková</subfield>
+  </datafield>
+  <datafield tag="998" ind1=" " ind2=" ">
+    <subfield code="a">003682127</subfield>
+  </datafield>
+</record>
+
+</collection>
