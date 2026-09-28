@@ -1,6 +1,7 @@
 0.05
  - Add tests for sigla plugin.
  - Add typo plugin.
+ - Fix author email.
 
 0.04 2026-04-15T19:04:48+02:00
  - Add BUB agency.
