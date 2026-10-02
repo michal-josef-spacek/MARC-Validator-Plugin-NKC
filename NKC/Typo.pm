@@ -40,7 +40,6 @@ Readonly::Hash our %FIELD_PUBLISHER => (
 		'Socistického' => 'Socialistického',
 		'SPN5' => 'SPN',
 		'spleč.' => 'společ.',
-		'společnosti pro šíření' => 'společnost pro šíření',
 		'společnsti' => 'společnosti',
 		'SStátní' => 'Státní',
 		'stání pojišťovna' => 'státní pojišťovna',
