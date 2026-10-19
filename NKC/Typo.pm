@@ -79,7 +79,7 @@ Readonly::Hash our %FIELD_PUBLISHER => (
 	},
 );
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 sub module_name {
 	my $self = shift;
